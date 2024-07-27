@@ -16,8 +16,82 @@
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
+    <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %}{% endif %}">
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
+        <div class="rich-text__content">
+          <div class="rich-text__content_infor">
+            <p class="title">Canon EOS M6 Mark II</p>
+            <div class="description">
+              <p class="price">$15,995.00</p>
+              <p class="sub-price">
+                <img src="{{ 'star.png' | asset_url }}" alt="star" width="20" height="20">
+                <img src="{{ 'star.png' | asset_url }}" alt="star" width="20" height="20">
+                <img src="{{ 'star.png' | asset_url }}" alt="star" width="20" height="20">
+                <img src="{{ 'star.png' | asset_url }}" alt="star" width="20" height="20">
+                <img src="{{ 'star-half-empty.png' | asset_url }}" alt="star-half-empty" width="20" height="20">
+                ( 231 review )
+              </p>
+            </div>
+            <div class="quantity-container">
+              <div class="quantity-count">
+                <p class="decrease">-</p>
+                <p class="quantity-number">1</p>
+                <p class="increase">+</p>
+              </div>
+              <button class="add-to-cart">Add to cart</button>
+            </div>
+            <p class="sub-title">Decisive authority. Workflow faster. Maximum dependability.</p>
+            <p class="normal-text">
+              The camera is so compact and lightweight that you might forget it in your pocket. The EOS M6 Mark II can
+              shoot up to 30 fps with its RAW shooting mode while tracking the dancer on stage without interrupting
+              others with a silent electronic shutter up to 1 / 16,000 sec.
+            </p>
+            <img src="{{ 'Group90.png' | asset_url }}" alt="star" width="532" height="">
+          </div>
+
+          <div class="product-gallery">
+            <div class="large-image-container">
+              <img
+                id="largeImage"
+                src="{{  'Rectangle2.png' | asset_url  }}"
+                alt="Product Image"
+                width="568"
+                height=""
+              >
+            </div>
+
+            <div class="thumbnails-container">
+              <img
+                src="{{  'Rectangle20.png' | asset_url  }}"
+                alt="Product Image"
+                width="129"
+                height=""
+                onclick="changeImage(this)"
+              >
+              <img
+                src="{{  'Rectangle21.png' | asset_url  }}"
+                alt="Product Image"
+                width="129"
+                height=""
+                onclick="changeImage(this)"
+              >
+              <img
+                src="{{  'Rectangle22.png' | asset_url  }}"
+                alt="Product Image"
+                width="129"
+                height=""
+                onclick="changeImage(this)"
+              >
+              <img
+                src="{{  'Rectangle23.png' | asset_url  }}"
+                alt="Product Image"
+                width="129"
+                height=""
+                onclick="changeImage(this)"
+              >
+            </div>
+          </div>
+        </div>
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}

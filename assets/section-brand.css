@@ -1,0 +1,19 @@
+.brand {
+    background-color: #F7F7F7;
+}
+
+.brand-gallery {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 749px) {
+    .brand-gallery img  {
+        width: 346px;
+    }
+}
