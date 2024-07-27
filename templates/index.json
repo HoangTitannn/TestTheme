@@ -16,16 +16,15 @@
           "type": "heading",
           "settings": {
             "heading": "More than a camera",
-            "heading_size": "h0"
+            "heading_size": "hxl"
           }
-        },
+        }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "heading"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_1.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -40,99 +39,18 @@
     },
     "rich_text": {
       "type": "rich-text",
-      "blocks": {
-        // "heading": {
-        //   "type": "heading",
-        //   "settings": {
-        //     "heading": "Canon EOS M6 Mark II",
-        //     "heading_size": "h1"
-        //   }
-        // },
-        // "text": {
-        //   "type": "text",
-        //   "settings": {
-        //     "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-        //   }
-        // }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-1",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "brand": {
-      "type": "brand",
-      "blocks": {},
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "overview": {
-      "type": "overview",
-      "blocks": {},
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "features": {
-      "type": "features",
-      "blocks": {},
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "camera_size": {
-      "type": "camera_size",
-      "blocks": {},
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 0
       }
     }
   },
   "order": [
     "image_banner",
-    "rich_text",
-    "brand",
-    "overview",
-    "features",
-    "camera_size",
-    // "featured_collection",
-    // "collage",
-    // "video",
-    // "multicolumn"
+    "rich_text"
   ]
 }
