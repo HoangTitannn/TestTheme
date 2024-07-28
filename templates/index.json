@@ -121,6 +121,34 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "slide_carousel": {
+      "type": "slide_carousel",
+      "blocks": {},
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "product_specs": {
+      "type": "product_specs",
+      "blocks": {},
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -130,6 +158,8 @@
     "overview",
     "features",
     "camera_size",
+    "slide_carousel",
+    "product_specs",
     // "featured_collection",
     // "collage",
     // "video",
