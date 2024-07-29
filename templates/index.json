@@ -16,12 +16,12 @@
           "type": "heading",
           "settings": {
             "heading": "More than a camera",
-            "heading_size": "h0"
+            "heading_size": "hxl"
           }
-        },
+        }
       },
       "block_order": [
-        "heading",
+        "heading"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_1.png",
@@ -44,137 +44,142 @@
         "content_alignment": "center",
         "color_scheme": "scheme-1",
         "full_width": true,
-        "padding_top": 0,
+        "padding_top": 40,
         "padding_bottom": 0
       }
     },
-    "brand": {
+    "brand_UpfTLK": {
       "type": "brand",
-      "blocks": {},
+      "blocks": {
+        "heading_fa4nrJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_gzELfK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_aMPK6r": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
       "block_order": [
-        "heading",
-        "text"
+        "heading_fa4nrJ",
+        "text_gzELfK",
+        "button_aMPK6r"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
-    "overview": {
-      "type": "overview",
-      "blocks": {},
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "features": {
-      "type": "features",
-      "blocks": {},
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "camera_size": {
+    "camera_size_JzD3ip": {
       "type": "camera_size",
-      "blocks": {},
+      "blocks": {
+        "heading_yXFNzG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_DrpN8e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_YxYNgM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
       "block_order": [
-        "heading",
-        "text"
+        "heading_yXFNzG",
+        "text_DrpN8e",
+        "button_YxYNgM"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
-    "slide_carousel": {
-      "type": "slide_carousel",
-      "blocks": {},
+    "features_VgY3QK": {
+      "type": "features",
+      "blocks": {
+        "heading_mfLXmT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_dUX6wB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_QeVELg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
       "block_order": [
-        "heading",
-        "text"
+        "heading_mfLXmT",
+        "text_dUX6wB",
+        "button_QeVELg"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "product_specs": {
-      "type": "product_specs",
-      "blocks": {},
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "testimonial": {
-      "type": "testimonial",
-      "blocks": {},
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "related_product": {
-      "type": "related-products",
-      "blocks": {},
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
-    "brand",
-    "overview",
-    "features",
-    "camera_size",
-    "slide_carousel",
-    "product_specs",
-    "testimonial",
-    "related_product",
-    // "featured_collection",
-    // "collage",
-    // "video",
-    // "multicolumn"
+    "brand_UpfTLK",
+    "camera_size_JzD3ip",
+    "features_VgY3QK"
   ]
 }
