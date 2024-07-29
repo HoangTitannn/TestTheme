@@ -37,8 +37,8 @@
 }
 
 .accordion {
-  width: 100%;
-  max-width: 600px;
+  width: 80%;
+  max-width: 470px;
   margin: auto;
 }
 
@@ -62,7 +62,7 @@
   color: #2d3339;
 }
 
-.accordion-header p {
+.accordion-content p {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -96,6 +96,20 @@
 }
 
 @media (max-width: 749px) {
+  .product_specs {
+    flex-direction: column-reverse;
+  }
+
+  .accordion {
+    width: 100%;
+    margin: 0;
+    padding: 40px 15px;
+  }
+
+  .product_specs > div {
+    width: 100%;
+  }
+
   .centered-text {
     font-size: 30px;
     line-height: 40px;

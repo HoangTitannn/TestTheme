@@ -45,7 +45,7 @@
   color: #2d3339;
 }
 
-.rich-text__content_infor .description .sub-price {
+.rich-text__content_infor .description .rich-text-sub-price {
   font-size: 14px;
   font-weight: 400;
   line-height: 14.35px;
@@ -71,12 +71,13 @@
   font-family: 'Epilogue';
   color: #ffffff;
   background-color: #2d3339;
+  border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .rich-text__content_infor .quantity-container .add-to-cart:hover {
-  background-color: #566a7e;
+  background-color: #43484D;
 }
 
 .rich-text__content_infor .quantity-container .quantity-count {
@@ -210,7 +211,7 @@
   .rich-text__content_infor img {
     width: 100%;
   }
-  .sub-price img {
+  .rich-text-sub-price img {
       width: 20px;
   }
   .rich-text__content_infor .description {

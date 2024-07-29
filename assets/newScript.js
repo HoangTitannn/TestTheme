@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
         panel.style.padding = '0 10px';
       } else {
         panel.style.maxHeight = panel.scrollHeight + 50 + 'px';
-        panel.style.padding = '10px 0';
+        panel.style.padding = '5px 0px 30px 0px';
       }
     });
   }
@@ -76,6 +76,31 @@ document.addEventListener('DOMContentLoaded', function () {
   var firstHeader = accHeaders[0];
   firstHeader.classList.add('active');
   var firstPanel = firstHeader.nextElementSibling;
-  firstPanel.style.maxHeight = firstPanel.scrollHeight + 'px';
-  firstPanel.style.padding = '10px 0';
+  firstPanel.style.maxHeight = firstPanel.scrollHeight + 50 + 'px';
+  firstPanel.style.padding = '5px 0px 30px 0px';
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  const slides = document.querySelectorAll('.user');
+  const dots = document.querySelectorAll('.testimonial-dot');
+  let currentIndex = 0;
+
+  function updateSlider(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('active', i === index);
+    });
+
+    dots.forEach((dot, i) => {
+      dot.classList.toggle('testimonial-active', i === index);
+    });
+  }
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      currentIndex = index;
+      updateSlider(index);
+    });
+  });
+
+  updateSlider(currentIndex);
 });
