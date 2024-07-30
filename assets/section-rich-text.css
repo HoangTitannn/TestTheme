@@ -133,7 +133,8 @@
 }
 
 .large-image-container img {
-  height: auto;
+  border: 5px solid #CECECE;
+  border-radius: 16px;
 }
 
 .thumbnails-container {
@@ -146,10 +147,17 @@
   height: auto;
   cursor: pointer;
   transition: transform 0.3s;
+  border: 1px solid #CECECE;
+  border-radius: 5px;
+}
+
+.thumbnails-container .active {
+  border-color: #2D3339;
 }
 
 .thumbnails-container img:hover {
   transform: scale(1.1);
+  border-color: #2D3339;
 }
 .rich-text__wrapper {
   display: flex;
@@ -164,6 +172,17 @@
 
 .rich-text__blocks {
   width: 100%;
+}
+
+.video-container {
+  width: 100%;
+  height: auto;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 750px) {

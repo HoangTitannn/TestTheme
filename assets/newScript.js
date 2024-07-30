@@ -19,7 +19,20 @@ document.addEventListener('DOMContentLoaded', function () {
 function changeImage(element) {
   const largeImage = document.getElementById('largeImage');
   largeImage.src = element.src;
+
+  const thumbnails = document.querySelectorAll('.thumbnails-container img');
+  thumbnails.forEach((thumbnail) => thumbnail.classList.remove('active'));
+
+  element.classList.add('active');
 }
+
+document.getElementById('myVideo').addEventListener('click', function () {
+  if (this.paused) {
+    this.play();
+  } else {
+    this.pause();
+  }
+});
 
 let slideIndex = 1;
 showSlides(slideIndex);

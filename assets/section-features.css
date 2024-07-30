@@ -33,7 +33,6 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 22px;
   width: 100%;
-  max-width: 570px;
 }
 
 .features-item {
@@ -97,5 +96,11 @@
   .features-img {
     width: 345px;
     height: 345px;
+  }
+  .features-description {
+    width: 100%;
+  }
+  .features-item {
+    width: 100%;
   }
 }

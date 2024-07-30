@@ -46,7 +46,12 @@
               shoot up to 30 fps with its RAW shooting mode while tracking the dancer on stage without interrupting
               others with a silent electronic shutter up to 1 / 16,000 sec.
             </p>
-            <img src="{{ 'Group90.png' | asset_url }}" alt="star" width="532" height="">
+            <div class="video-container">
+              <video id="myVideo" width="532" height="auto" poster="{{ 'Group90.png' | asset_url }}">
+                <source src="https://tinyurl.com/y5x5jmnf" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
 
           <div class="product-gallery">
@@ -56,19 +61,21 @@
                 src="{{  'Rectangle2.png' | asset_url  }}"
                 alt="Product Image"
                 width="568"
-                height=""
+                height="574"
               >
             </div>
 
             <div class="thumbnails-container">
               <img
-                src="{{  'Rectangle20.png' | asset_url  }}"
+                class="thumbnail active"
+                src="{{  'Rectangle2.png' | asset_url  }}"
                 alt="Product Image"
                 width="129"
                 height=""
                 onclick="changeImage(this)"
               >
               <img
+                class="thumbnail"
                 src="{{  'Rectangle21.png' | asset_url  }}"
                 alt="Product Image"
                 width="129"
@@ -76,6 +83,7 @@
                 onclick="changeImage(this)"
               >
               <img
+                class="thumbnail"
                 src="{{  'Rectangle22.png' | asset_url  }}"
                 alt="Product Image"
                 width="129"
@@ -83,6 +91,7 @@
                 onclick="changeImage(this)"
               >
               <img
+                class="thumbnail"
                 src="{{  'Rectangle23.png' | asset_url  }}"
                 alt="Product Image"
                 width="129"

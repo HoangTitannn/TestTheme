@@ -355,6 +355,10 @@
   z-index: 1;
 }
 
+.inline-richtext {
+  font-weight: 600;
+}
+
 .banner--mobile-bottom .banner__box {
   padding: 4rem 3.5rem;
 }
