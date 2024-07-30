@@ -20,7 +20,9 @@
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
         <div class="rich-text__content">
           <div class="rich-text__content_infor">
-            <p class="title">Canon EOS M6 Mark II</p>
+            {%- for block in section.blocks -%}
+              <p class="title">{{ block.settings.heading }}</p>
+            {%- endfor -%}
             <div class="description">
               <p class="price">$15,995.00</p>
               <p class="rich-text-sub-price">
