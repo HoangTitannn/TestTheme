@@ -39,6 +39,18 @@
     },
     "rich_text": {
       "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Canon EOS M6 Mark II",
+            "heading_size": "hxl"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -344,14 +356,8 @@
     },
     "related_product": {
       "type": "related-products",
-      "blocks": {},
-      "block_order": [
-        "heading",
-        "text"
-      ],
       "settings": {
         "color_scheme": "scheme-1",
-        "full_width": true,
         "padding_top": 0,
         "padding_bottom": 0
       }
